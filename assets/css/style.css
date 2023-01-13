@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #C38888;
+
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 16px 65px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F3B6B6;
+  color: D31A38;
+}
+
+.topnav a.active {
+  background-color: #A56C6C;
+  color: white;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../../assets/image/home_background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(7px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../assets/image/biodata_background.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*GAMBAR BIODATA*/
+img.profile {
+  border-radius: 30%;
+  float: left;
+  margin: 5px;
+}
+
+p.big {
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 20px;
+  text-indent: 50px;
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("../../assets/image/playlist_background.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: Georgia;
+}
+
+.glow {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg3 {
+  /* The image used */
+  background-image: url("../../assets/image/education_background.jpg");
+
+ /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  /* Full height */
+  height: 50%; 
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Position text in the middle of the page/image */
+.bg-text2 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+digital-clock {
+ background-color: #66ffff;
+ width: 35%;
+ margin: auto;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-family: Georgia;
+ font-size: 65px;
+ text-align: center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center
+}
+
+th {
+  background-color: #c76766;
+}
+
+tr:nth-child(even) {
+  background-color: #d07f7e;
+}
+
+a:link {
+  color: #2e0614;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../../assets/image/family_background.jpg");
+
+/* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+/* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Position text in the middle of the page/image */
+.bg-text3 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #F11B6AC;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #9E5E6F;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.bg5 {
+  /* The image used */
+  background-image: url("../../assets/image/gallery_background.jpg");
+
+/* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(3px);
+
+/* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text3 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery {
+  --n: 4; /* number of rows*/
+  --m: 4; /* number of columns */
+  --g: 10px;  /* control the gap */
+  --f: 1.2;   /* control the scale factor */
+  
+  display: grid;
+  gap: var(--g);
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(var(--m),auto);
+}
+
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(65%);
+  transition: .35s linear;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  width:  calc(100vh*var(--f)/var(--n));
+  height: calc(100vw*var(--f)/var(--m));
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #E79898;
+  margin-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 3px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
